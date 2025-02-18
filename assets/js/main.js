@@ -126,7 +126,7 @@
       let self = $(this);
       let arrowBtn = document.createElement("BUTTON");
       arrowBtn.classList.add("dropdown-toggle-btn");
-      arrowBtn.innerHTML = "<i class='fa-regular fa-angle-right'></i>";
+      arrowBtn.innerHTML = "<i class='fa fa-angle-right'></i>";
 
       self.append(function () {
         return arrowBtn;

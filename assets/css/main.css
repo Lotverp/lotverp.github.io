@@ -4854,19 +4854,13 @@ body.wt-magic-cursor #magic-cursor {
   gap: 12px;
   text-transform: uppercase;
 }
-.wt-header-menu ul li .submenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 160px;
-  padding: 20px 0;
-  transform: scaleY(0);
-  transform-origin: top center;
-  text-align: start;
-  transition: 0.4s;
-  visibility: hidden;
-  z-index: 9;
+.wt-header-menu {
+  position: absolute !important;
+  left: 110px; /* Stessa distanza dei social */
+  top: 50%;
+  transform: translateY(-50%) !important;
 }
+
 .wt-header-menu ul li .submenu li {
   margin-bottom: 6px;
 }
